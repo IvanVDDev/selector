@@ -1,0 +1,61 @@
+.schedule-wrapper {
+  width: 50%;
+  margin: 100px auto;
+  min-height: 500px;
+  border: 1px solid red;
+}
+
+.schedule-wrapper .schedule-item {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.schedule-wrapper .schedule-item ul {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  overflow: hidden;
+}
+
+.schedule-wrapper .schedule-item ul.disable {
+  pointer-events: none;
+}
+
+.schedule-wrapper .schedule-item ul li {
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.schedule-wrapper .schedule-date {
+  height: 100%;
+  width: 60%;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+.schedule-wrapper .schedule-time {
+  height: 100%;
+  width: 25%;
+  box-sizing: border-box;
+  border: 1px solid green;
+}
+
+.schedule-wrapper .schedule-manage {
+  height: 100px;
+  width: 15%;
+  box-sizing: border-box;
+  border: 1px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
